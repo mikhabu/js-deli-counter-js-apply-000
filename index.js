@@ -10,6 +10,17 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
+let curDeliLine = [];
+let counter = 0;
+
+function takeANumber(curDeliLine) {
+  counter++;
+  curDeliLine.push(counter);
+  return `Welcome. You are ${counter} in the line.`;
+}
+console.log(curDeliLIne);
+console.log(counter);
+takeANumber();
 
 /*
 1. create a func `nowServing` = (katzDeliLine) => return 1) the `string`, if the line is empty; return 2) first name in katzDeliLine, than remove that name from the line;
