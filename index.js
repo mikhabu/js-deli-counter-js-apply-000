@@ -18,13 +18,13 @@ function takeANumber(curDeliLine) {
   curDeliLine.push(counter);
   return `Welcome. You are ${counter} in the line.`;
 }
-console.log(curDeliLIne);
+console.log(curDeliLine);
 console.log(counter);
 takeANumber();
-console.log(curDeliLIne);
+console.log(curDeliLine);
 console.log(counter);
 takeANumber();
-console.log(curDeliLIne);
+console.log(curDeliLine);
 console.log(counter);
 takeANumber();
 
