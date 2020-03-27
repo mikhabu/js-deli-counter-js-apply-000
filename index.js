@@ -21,6 +21,12 @@ function takeANumber(curDeliLine) {
 console.log(curDeliLIne);
 console.log(counter);
 takeANumber();
+console.log(curDeliLIne);
+console.log(counter);
+takeANumber();
+console.log(curDeliLIne);
+console.log(counter);
+takeANumber();
 
 /*
 1. create a func `nowServing` = (katzDeliLine) => return 1) the `string`, if the line is empty; return 2) first name in katzDeliLine, than remove that name from the line;
