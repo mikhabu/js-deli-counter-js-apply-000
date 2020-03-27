@@ -52,4 +52,3 @@ function currentLine(curLine) {
     return noCommaNoSpace;
   }
 }
-
