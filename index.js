@@ -10,12 +10,12 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
-let curDeliLine = [];
+
 let counter = 0;
 
 function takeANumber(curDeliLine) {
   counter++;
-  curDeliLine.push(counter);
+  
   return `Welcome. You are ${counter} in the line.`;
 }
 console.log(curDeliLine);
